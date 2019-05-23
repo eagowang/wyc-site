@@ -5,7 +5,7 @@ draft: false
 keywords: ['webpack', 'splitChunks', 'vendor']
 description: 'create vendor chunk'
 tags: ['splitChunks']
-categories: ['webpack']
+categories: ['前端']
 author: 'eago'
 comment: true
 ---
