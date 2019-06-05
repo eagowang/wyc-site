@@ -11,3 +11,47 @@ comment: true
 ---
 
 使用 leetcode-cli 本地刷题
+
+## 安装
+
+## 登陆
+
+## 查看问题列表
+
+## 选题
+
+1. 查看问题列表
+
+```js
+// 全部列表
+leetcode list
+//查看简单问题列表
+leetcode list -q e
+```
+
+2. 筛选题
+
+```js
+// 随机简单一题
+leetcode show -q e
+// 查看指定题
+leetcode show 104
+```
+
+3. 生成文件
+
+```js
+leetcode show 104 -gx -l javascript
+```
+
+## 测试
+
+```js
+leetcode test 538.convert-bst-to-greater-tree.js
+```
+
+## 提交
+
+```js
+leetcode submit 538.convert-bst-to-greater-tree.js
+```
