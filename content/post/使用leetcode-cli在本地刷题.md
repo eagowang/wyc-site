@@ -16,8 +16,6 @@ comment: true
 
 ## 登陆
 
-## 查看问题列表
-
 ## 选题
 
 1. 查看问题列表
@@ -38,10 +36,10 @@ leetcode show -q e
 leetcode show 104
 ```
 
-3. 生成文件
+3. 生成并打开文件
 
 ```js
-leetcode show 104 -gx -l javascript
+leetcode show 104 -gxe -l javascript
 ```
 
 ## 测试
