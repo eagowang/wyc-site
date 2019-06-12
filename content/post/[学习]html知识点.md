@@ -36,7 +36,7 @@ doctype 声明不是 html 标签，用来告诉浏览器当前页面使用哪种
 | name       | author <br/> description <br/>keywords<br/>generator<br/>revised<br/>others | 把 content 内容关联到一个名称   |
 | scheme     | some_text                                                                   | 定义用于翻译 content 属性的格式 |
 
-1. name 属性
+1.name 属性
 
 比较常用的比如 keywords,比如这篇文章的 meta 标签如下
 
@@ -49,7 +49,7 @@ doctype 声明不是 html 标签，用来告诉浏览器当前页面使用哪种
 
 搜索引擎就会根据我提供的关键字进行分类
 
-2. http-equiv 属性
+2.http-equiv 属性
 
 告诉服务器在发送实际的文档之前先在要传送给浏览器的 MIME 文档头部包含名称/值对
 
@@ -72,13 +72,13 @@ expires:31 Dec 2008
 
 ### 常规用法
 
-1. 外部脚本（src）
+1.外部脚本（src）
 
 ```html
 <script src="script.js"></script>
 ```
 
-2. 内嵌脚本
+2.内嵌脚本
 
 ```html
 <script type="text/javascript">
@@ -86,7 +86,7 @@ expires:31 Dec 2008
 </script>
 ```
 
-## async 和 defer
+### async 和 defer
 
 > 默认情况：浏览器同步下载和执行 js 脚本
 
