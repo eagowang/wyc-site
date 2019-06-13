@@ -44,10 +44,12 @@ doctype 声明不是 html 标签，用来告诉浏览器当前页面使用哪种
 <meta name="keywords" content="HTML,学习系列" />
 ```
 
+搜索引擎就会根据我提供的关键字进行分类
+
+其他还有：
+
 - referrer：referrer 首部
 - viewport：仅供移动设备使用
-
-搜索引擎就会根据我提供的关键字进行分类
 
 2.http-equiv 属性
 
