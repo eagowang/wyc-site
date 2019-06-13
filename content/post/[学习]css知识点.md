@@ -182,7 +182,7 @@ iteration-count | direction | fill-mode | play-state
 
 #### 清除浮动
 
-1. clear:both
+1.clear:both
 
 给最后一个不浮动的元素加上 clear:both，没有就加一个空元素
 
@@ -192,7 +192,7 @@ iteration-count | direction | fill-mode | play-state
 }
 ```
 
-2. bfc 清除浮动
+2.bfc 清除浮动
 
 ```css
 .wrap {

@@ -51,7 +51,7 @@ doctype 声明不是 html 标签，用来告诉浏览器当前页面使用哪种
 - referrer：referrer 首部
 - viewport：仅供移动设备使用
 
-2.http-equiv 属性
+  2.http-equiv 属性
 
 告诉服务器在发送实际的文档之前先在要传送给浏览器的 MIME 文档头部包含名称/值对
 
@@ -70,15 +70,42 @@ charset:iso-8859-1
 expires:31 Dec 2008
 ```
 
-## script 标签
+3.一些 meta 标签
 
-### 常规用法
-
-1.外部脚本（src）
+(1) 浏览器 csp 策略
 
 ```html
-<script src="script.js"></script>
+<meta
+  http-equiv="Content-Security-Policy"
+  content="upgrade-insecure-requests"
+/>
 ```
+
+(2) 控制浏览器的 DNS 预读取功能
+
+```html
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+```
+
+(3) ios 删除苹果默认的工具栏和菜单栏，来给用户腾出更多的空间从而让网页得到更好的展现，让 iphone 达到屏幕增大的效果。
+
+```html
+<meta name="apple-mobile-web-app-capable" content="yes" />
+```
+
+(4) ios 控制状态栏显示样式
+
+```html
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+```
+
+(5) ios 手机号码不被显示为拨号链接
+
+````html
+<meta name="format-detection" content="telephone=no" />
+ios``` ## script 标签 ### 常规用法 1.外部脚本（src） ```html
+<script src="script.js"></script>
+````
 
 2.内嵌脚本
 
