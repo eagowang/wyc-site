@@ -5,7 +5,7 @@ draft: false
 keywords: ['学习系列']
 description: 'css知识点'
 tags: ['学习系列', 'css']
-categories: ['学习系列', 'css']
+categories: ['学习系列']
 author: 'eago'
 comment: true
 ---
