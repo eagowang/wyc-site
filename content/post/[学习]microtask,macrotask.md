@@ -1,5 +1,5 @@
 ---
-title: "[学习]microtask,macrotask"
+title: '[学习]microtask,macrotask'
 date: 2019-06-14T21:28:59+08:00
 draft: false
 keywords: ['学习系列']
@@ -9,15 +9,15 @@ categories: ['学习系列']
 author: 'eago'
 comment: true
 ---
+
 [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 
-用一句话概括，就是一个macrotask中出现的mircotask都在这一次eventloop中执行，出现的macrotask需要在新的eventloop执行
-
+用一句话概括，就是一个 macrotask 中出现的 mircotask 都在这一次 eventloop 中执行，出现的 macrotask 需要在新的 eventloop 执行
 
 ## macrotask(task)
 
 - setTimeout
-= setInterval
+  = setInterval
 - setImmediate
 - requestAnimationFrame
 - I/O
@@ -32,17 +32,19 @@ comment: true
 
 ```js
 console.log('script start');
-setTimeout(function(){
-    console.log('setTimeout');
+setTimeout(function() {
+  console.log('setTimeout');
 }, 0);
 
-Promise.resolve().then(function(){
+Promise.resolve()
+  .then(function() {
     console.log('promise1');
-}).then(function(){
-    console.log('promise2')
-})
+  })
+  .then(function() {
+    console.log('promise2');
+  });
 
-console.log('script end')
+console.log('script end');
 ```
 
 ```
@@ -53,13 +55,14 @@ promise2
 setTimeout
 ```
 
-1. 一次event loop
-2. setTimeout的回调进入macrotask栈
-3. 带promise1的回调进入microtask栈
-4. 执行3的回调，并出栈
-5. 带promise2的回调进入microtask栈
-6. 执行5的回调，并出栈
-7. 没有microtask任务了
-8. 新一次event loop
-9. 执行2的macrotask
-
+1. 一次 event loop
+2. setTimeout 的回调进入 macrotask 栈
+3. 带 promise1 的回调进入 microtask 栈
+4. 执行 3 的回调
+5. 带 promise2 的回调进入 microtask 栈
+6. 执行 5 的回调
+7. primise2 出栈
+8. promise1 出栈
+9. 没有 microtask 任务了
+10. 新一次 event loop
+11. 执行 2 的 macrotask
