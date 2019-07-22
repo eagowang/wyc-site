@@ -42,3 +42,10 @@ git status -s
 
 - 查看未暂存的修改`git diff`
 - 查看已暂存的修改`git diff --staged`
+
+## 提交
+
+```
+git commit "提交"
+git commit -am "跳过缓存区提交"
+```
