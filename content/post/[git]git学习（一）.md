@@ -10,6 +10,8 @@ author: 'eago'
 comment: true
 ---
 
+**注**:内容全部为[git pro](https://git-scm.com/book/zh/v2/)摘要
+
 我大概知道这些命令
 
 ```js
