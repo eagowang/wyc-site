@@ -101,3 +101,67 @@ git log --stat
 ## 撤销操作
 
 在任何阶段，都可能想要撤销某些操作
+
+```
+// 重新提交
+git commit --amend
+// 取消暂存的文件
+git reset HEAD README.md
+// 取消未暂存的文件
+git checkout README.md
+```
+
+## 远程仓库的使用
+
+管理远程仓库包括了解如何添加远程仓库、移除无效的远程仓库、管理不同的远程分支并定义它们是否被跟踪等等。
+
+## 查看远程仓库
+
+```
+// 查看远程服务器的简写
+git remote
+// 查看远程服务器简写及其url
+git remote -v
+```
+
+## 添加远程仓库
+
+```
+git remote add origin git@github.com:eagowang/wyc-site.git
+```
+
+## 从远程仓库抓取或拉取
+
+```
+// 拉取数据到本地仓库，但不会自动合并或修改当前的工作
+git fetch origin
+// 抓取然后合并远程分支到当前分支
+git pull
+```
+
+## 推送到远程仓库
+
+```
+git push origin master
+```
+
+## 查看远程仓库信息
+
+```
+git remote show origin
+```
+
+## 远程仓库的移除与重命名
+
+```
+// 重命名
+git remote rename origin wyc_site
+// 移除
+git remote rm origin
+```
+
+## 打标签
+
+```
+git tag
+```
