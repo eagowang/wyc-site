@@ -173,5 +173,22 @@ git tag
 // 查看标签信息
 git show v1.0.0
 // 轻量标签
-git tag 1.0.1
+git tag v1.0.1
+// 删除标签
+git tag -d v1.0.1
+// 给某一次提交打标签
+git tag -a v1.0.2 9fceb02
+// 推送标签
+git push origin v1.0.2
+git push origin --tags
+// 检出标签
+git checkout v1.0.2
+// 根据标签创建新愤怒值
+git checkout -b v1.0.3 v1.0.2
+```
+
+## Git 别名
+
+```
+git config --global alias.co checkout
 ```
