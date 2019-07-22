@@ -49,3 +49,5 @@ git status -s
 git commit "提交"
 git commit -am "跳过缓存区提交"
 ```
+
+## 移除文件
