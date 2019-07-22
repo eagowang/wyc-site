@@ -172,4 +172,6 @@ git tag -a v1.0.0 -m "my version 1.0.0"
 git tag
 // 查看标签信息
 git show v1.0.0
+// 轻量标签
+git tag 1.0.1
 ```
