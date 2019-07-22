@@ -53,8 +53,51 @@ git commit -am "跳过缓存区提交"
 ## 移除文件
 
 ```
-// 移除文件
+// 取消跟踪，并移除文件
 git rm xxx
-
+// 取消跟踪，并移除文件（保留工作区）
 git rm --cached xxx
 ```
+
+## 移动文件
+
+```
+// 重命名
+git mv readme.md README.md
+// 相当于运行了以下三条命令
+mv readme.md README.md
+git rm readme.md
+git add README.md
+```
+
+## 查看提交历史
+
+```
+// 会列出每个提交的sha-1检验和、作者名字、邮箱、提交时间
+// 和说明
+git log
+```
+
+格式化选项
+
+`--pretty`可选的值 oneline，short，full，fuller，format。
+
+```
+// format 格式化，graph 图形化
+git log --pretty=format:"%h - %an, %ar : %s" --graph
+```
+
+限制 git log 输出的选项
+
+```
+// 包含指定关键字的提交
+git log --grep "xx"
+// -p 显示每次提交的差异， -2 表示最近两次提交
+git log -p -2
+// --stat 每次提交的简略统计信息
+git log --stat
+```
+
+## 撤销操作
+
+在任何阶段，都可能想要撤销某些操作
