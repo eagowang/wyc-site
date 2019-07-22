@@ -51,3 +51,10 @@ git commit -am "跳过缓存区提交"
 ```
 
 ## 移除文件
+
+```
+// 移除文件
+git rm xxx
+
+git rm --cached xxx
+```
