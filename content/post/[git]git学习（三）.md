@@ -34,11 +34,9 @@ git checkout testing
 
 ![img](https://git-scm.com/book/en/v2/images/head-to-testing.png)
 
-```
-做些修改在testing分支提交
+做些修改在 testing 分支提交
 
 ![img](https://git-scm.com/book/en/v2/images/advance-testing.png)
-```
 
 回到 master 分支
 
@@ -56,3 +54,11 @@ git checkout master
 ```
 git log --oneline --decorate --graph --all
 ```
+
+## 分支合并
+
+- 没有分歧的合并：当你试图合并两个分支时，如果顺着一个分支走下去能到达另一个分支，那么 Git 在合并两者的时候，只会简单的将指针向前推进——fast-forward（快进）
+- 有分歧的合并：Git 会使用两个分支的末端所指的快照以及这两个分支的祖先，做一个简单的三方合并。和 fast-forward 不同的是，Git 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提交指向它。这个被称作一次合并提交，它的特别之处在于他有不止一个父提交。
+
+![img](https://git-scm.com/book/en/v2/images/basic-merging-1.png)
+![img](https://git-scm.com/book/en/v2/images/basic-merging-2.png)
