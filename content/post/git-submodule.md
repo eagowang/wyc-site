@@ -1,12 +1,12 @@
 ---
-title: 'Git Submodule'
+title: "Git Submodule"
 date: 2019-05-30T17:08:10+08:00
 draft: false
-keywords: ['git', 'submodule']
-description: 'git submodule'
-tags: ['git', 'submodule']
-categories: ['前端']
-author: 'eago'
+keywords: ["git", "submodule"]
+description: "git submodule"
+tags: ["git", "submodule"]
+categories: ["前端"]
+author: "eago"
 comment: true
 ---
 
