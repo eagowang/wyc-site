@@ -3,19 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2019-07-23T08:36:27+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-07-23T08:36:27+08:00</lastmod>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/react%E5%BC%B9%E7%AA%97/</loc>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/taga/</loc>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/tagb/</loc>
+    <lastmod>2019-08-01T20:56:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2019-07-23T08:36:27+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -25,12 +50,6 @@
     <lastmod>2019-07-23T08:36:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2019-07-23T08:36:27+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
