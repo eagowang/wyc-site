@@ -1,8 +1,7 @@
 ---
 title: "[React]弹窗"
 author: "wangyichen"
-cover: "/images/cover.jpg"
-tags: ["tagA", "tagB"]
+tags: ["react", "弹窗", "高阶组件"]
 date: 2019-08-01T20:56:06+08:00
 draft: false
 ---
