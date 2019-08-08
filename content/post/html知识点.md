@@ -1,13 +1,10 @@
 ---
-title: '[学习]html知识点'
+title: "html知识点"
 date: 2019-06-12T09:58:58+08:00
+author: "eago"
+tags: ["html"]
+categories: ["html"]
 draft: false
-keywords: ['学习系列']
-description: 'html知识点'
-tags: ['学习系列', 'html']
-categories: ['学习系列']
-author: 'eago'
-comment: true
 ---
 
 ## doctype
@@ -111,7 +108,7 @@ ios``` ## script 标签 ### 常规用法 1.外部脚本（src） ```html
 
 ```html
 <script type="text/javascript">
-  document.write('Hello World!');
+  document.write("Hello World!");
 </script>
 ```
 

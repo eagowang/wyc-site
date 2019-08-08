@@ -1,13 +1,10 @@
 ---
-title: '[Git]git学习（二）'
+title: "[Git]git（二）"
+author: "eago"
+tags: ["git"]
+categories: ["git"]
 date: 2019-07-22T15:49:08+08:00
 draft: false
-keywords: ['git']
-description: 'git基础'
-tags: ['git']
-categories: ['git']
-author: 'eago'
-comment: true
 ---
 
 ## 获取仓库

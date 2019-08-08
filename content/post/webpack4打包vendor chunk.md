@@ -1,13 +1,10 @@
 ---
-title: 'webpack4打包vendor chunk'
+title: "webpack4打包vendor chunk"
+author: "eago"
+tags: ["webpack"]
+categories: ["webpack"]
 date: 2019-03-25T11:28:00+08:00
 draft: false
-keywords: ['webpack', 'splitChunks', 'vendor']
-description: 'create vendor chunk'
-tags: ['splitChunks']
-categories: ['前端']
-author: 'eago'
-comment: true
 ---
 
 根据爆栈网回答整理：[webpack-4-create-vendor-chunk](https://stackoverflow.com/questions/48985780/webpack-4-create-vendor-chunk)

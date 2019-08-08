@@ -1,13 +1,10 @@
 ---
-title: '[git]git学习（一）'
+title: "[git]git（一）"
+author: "eago"
+tags: ["git"]
+categories: ["git"]
 date: 2019-07-22T13:58:29+08:00
 draft: false
-keywords: ['git']
-description: 'git概览'
-tags: ['git']
-categories: ['git']
-author: 'eago'
-comment: true
 ---
 
 **注**:内容全部为[git pro](https://git-scm.com/book/zh/v2/)摘要

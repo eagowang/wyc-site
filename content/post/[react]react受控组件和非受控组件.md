@@ -1,13 +1,10 @@
 ---
-title: 'React受控组件和非受控组件'
+title: "[React]React受控组件和非受控组件"
+author: "eago"
+tags: ["受控组件，非受控组件", "react"]
+categories: ["react"]
 date: 2019-06-08T11:23:07+08:00
 draft: false
-keywords: ['react', '受控组件', '非受控组件']
-description: 'react受控组件和非受控组件'
-tags: ['react']
-categories: ['前端', 'react']
-author: 'eago'
-comment: true
 ---
 
 - 受控组件：用 state 控制取值的表单输入元素叫做受控组件

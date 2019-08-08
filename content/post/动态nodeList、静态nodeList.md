@@ -1,13 +1,10 @@
 ---
-title: '[学习]动态nodeList、静态nodeList'
+title: "动态nodeList、静态nodeList"
 date: 2019-06-28T09:41:03+08:00
+author: "eago"
+tags: ["nodeList"]
+categories: ["js"]
 draft: false
-keywords: ['学习系列']
-description: '动态NodeList，静态NodeList'
-tags: ['学习系列', '动态NodeList', '静态NodeList']
-categories: ['学习系列']
-author: 'eago'
-comment: true
 ---
 
 ## NodeList

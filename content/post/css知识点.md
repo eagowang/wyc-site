@@ -1,13 +1,10 @@
 ---
-title: '[学习]css知识点'
+title: "css知识点"
 date: 2019-06-12T13:46:55+08:00
+author: "eago"
+tags: ["css"]
+categories: ["css"]
 draft: false
-keywords: ['学习系列']
-description: 'css知识点'
-tags: ['学习系列', 'css']
-categories: ['学习系列']
-author: 'eago'
-comment: true
 ---
 
 ## 基础
@@ -83,7 +80,7 @@ a:active {
 ```css
 .main::before {
   display: block;
-  content: '';
+  content: "";
   width: 2px;
   height: 12px;
   background: orange;

@@ -1,13 +1,10 @@
 ---
-title: '[学习]promise'
+title: "promise"
+author: "eago"
+tags: ["promise实现"]
+categories: ["js"]
 date: 2019-06-17T09:59:11+08:00
 draft: false
-keywords: ['学习系列']
-description: 'promise'
-tags: ['学习系列', 'promise']
-categories: ['学习系列']
-author: 'eago'
-comment: true
 ---
 
 ## 实现
@@ -15,9 +12,9 @@ comment: true
 以下是实现和一些关键注释
 
 ```js
-var PENDING = 'pending';
-var FULFILLED = 'fulfilled';
-var REJECTED = 'rejected';
+var PENDING = "pending";
+var FULFILLED = "fulfilled";
+var REJECTED = "rejected";
 
 function MyPromise(fn) {
   // 三种状态，一旦fulfilled或rejected，就不会变了
@@ -60,13 +57,13 @@ MyPromise.prototype.then = function(onFulfilled, onRejected) {
   var self = this;
   var promise2;
   onFulfilled =
-    typeof onResolved === 'function'
+    typeof onResolved === "function"
       ? onResolved
       : function(value) {
           return value;
         };
   onRejected =
-    typeof onRejected === 'function'
+    typeof onRejected === "function"
       ? onRejected
       : function(reason) {
           throw reason;
@@ -141,14 +138,14 @@ MyPromise.prototype.then = function(onFulfilled, onRejected) {
 // 测试用例
 var p1 = new MyPromise(function(resolve, reject) {
   setTimeout(function() {
-    resolve('p1');
+    resolve("p1");
   }, 1000);
 });
 
 var getP2FromP1 = function(res) {
   return new MyPromise(function(resolve, reject) {
     setTimeout(function() {
-      resolve('p2' + res);
+      resolve("p2" + res);
     }, 1000);
   });
 };
@@ -159,14 +156,14 @@ p1.then(getP2FromP1).then(function(res) {
 
 var p2 = new MyPromise(function(resolve, reject) {
   setTimeout(function() {
-    resolve('hello');
+    resolve("hello");
   }, 1000);
 });
 p2.then(function(res) {
   console.log(res);
 });
-
 ```
 
 ## 参考
-1. [剖析Promise内部结构，一步一步实现一个完整的、能通过所有Test case的Promise类](https://github.com/xieranmaya/blog/issues/3)
+
+1. [剖析 Promise 内部结构，一步一步实现一个完整的、能通过所有 Test case 的 Promise 类](https://github.com/xieranmaya/blog/issues/3)

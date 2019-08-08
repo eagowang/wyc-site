@@ -2,6 +2,7 @@
 title: "[React]弹窗"
 author: "eago"
 tags: ["react", "弹窗", "高阶组件"]
+categories: ["react"]
 date: 2019-08-01T20:56:06+08:00
 draft: false
 ---

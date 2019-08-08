@@ -1,13 +1,10 @@
 ---
-title: '[Git]git学习（三）'
+title: "[Git]git（三）"
+author: "eago"
+tags: ["git"]
+categories: ["git"]
 date: 2019-07-23T08:36:27+08:00
 draft: false
-keywords: ['git']
-description: 'git分支'
-tags: ['git']
-categories: ['git']
-author: 'eago'
-comment: true
 ---
 
 ## 分支简介

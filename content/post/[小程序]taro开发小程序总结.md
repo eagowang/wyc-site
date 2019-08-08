@@ -1,13 +1,10 @@
 ---
-title: 'Taro开发小程序总结'
+title: "[小程序]Taro开发小程序总结"
+author: "eago"
+tags: ["taro", "小程序"]
+categories: ["小程序"]
 date: 2019-05-23T11:29:41+08:00
 draft: false
-keywords: ['taro', '小程序', '微信开发']
-description: 'taro开发小程序总结'
-tags: ['taro', '微信', '小程序']
-categories: ['前端']
-author: 'eago'
-comment: true
 ---
 
 ## 小程序

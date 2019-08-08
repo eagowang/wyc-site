@@ -1,13 +1,10 @@
 ---
-title: "Git Submodule"
+title: "[Git]Git Submodule"
+author: "eago"
+tags: ["git"]
+categories: ["git"]
 date: 2019-05-30T17:08:10+08:00
 draft: false
-keywords: ["git", "submodule"]
-description: "git submodule"
-tags: ["git", "submodule"]
-categories: ["前端"]
-author: "eago"
-comment: true
 ---
 
 场景描述：比如这个 hugo 博客，整个博客是一个 git 仓库，生成的 public 文件对应一个 git 仓库

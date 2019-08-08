@@ -1,13 +1,10 @@
 ---
-title: 'Refs和refs转发'
+title: "[React]Refs和refs转发"
+author: "eago"
+tags: ["react", "refs和refs转发"]
+categories: ["react"]
 date: 2019-06-07T09:42:24+08:00
 draft: false
-keywords: ['react', 'refs', 'refs转发']
-description: 'refs和refs转发'
-tags: ['react']
-categories: ['前端', 'react']
-author: 'eago'
-comment: true
 ---
 
 ## refs

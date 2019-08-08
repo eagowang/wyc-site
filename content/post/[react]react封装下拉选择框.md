@@ -1,13 +1,10 @@
 ---
-title: 'React封装下拉选择框'
+title: "[React]React封装下拉选择框"
+author: "eago"
+tags: ["react", "组件封装"]
+categories: ["react"]
 date: 2019-05-30T20:03:14+08:00
 draft: true
-keywords: ['react', '封装组件']
-description: '封装react组件下拉选择框'
-tags: ['react']
-categories: ['前端', 'react']
-author: 'eago'
-comment: true
 ---
 
 antd 的 select 组件使用方式如下：

@@ -1,13 +1,10 @@
 ---
-title: 'Hack微信7.0.4 popState 刷新bug'
+title: "[微信]Hack微信7.0.4 popState 刷新bug"
+author: "eago"
+tags: ["微信"]
+categories: ["微信"]
 date: 2019-05-23T11:40:44+08:00
 draft: false
-keywords: ['popState', '微信开发']
-description: '微信popState刷新bug'
-tags: ['popState', '微信']
-categories: ['前端']
-author: 'eago'
-comment: true
 ---
 
 原因：业务要求需要 pushState 一次

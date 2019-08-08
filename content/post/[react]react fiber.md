@@ -1,5 +1,8 @@
 ---
-title: 'React Fiber'
+title: "[React]React Fiber"
+author: "eago"
+tags: ["react", "fiber"]
+categories: ["react"]
 date: 2019-06-08T11:31:09+08:00
 draft: true
 ---

@@ -1,13 +1,10 @@
 ---
-title: '[学习]microtask,macrotask'
+title: "microtask,macrotask"
+author: "eago"
+tags: ["microtask,macrotask"]
+categories: ["js"]
 date: 2019-06-14T21:28:59+08:00
 draft: false
-keywords: ['学习系列']
-description: '作用域、闭包、原型链'
-tags: ['学习系列', 'microtask', 'macrotask']
-categories: ['学习系列']
-author: 'eago'
-comment: true
 ---
 
 [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
@@ -31,20 +28,20 @@ comment: true
 例子：
 
 ```js
-console.log('script start');
+console.log("script start");
 setTimeout(function() {
-  console.log('setTimeout');
+  console.log("setTimeout");
 }, 0);
 
 Promise.resolve()
   .then(function() {
-    console.log('promise1');
+    console.log("promise1");
   })
   .then(function() {
-    console.log('promise2');
+    console.log("promise2");
   });
 
-console.log('script end');
+console.log("script end");
 ```
 
 ```
